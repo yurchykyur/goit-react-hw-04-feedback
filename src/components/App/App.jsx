@@ -44,7 +44,7 @@ export default function App() {
       <AppName title="Cafe Espresso costumer feedback" />
       <Section title="Please leave feedback">
         <FeedbackOptions
-          options={[neutral, bad, good]}
+          options={['neutral', 'bad', 'good']}
           onLeaveFeedback={onLeaveFeedback}
         />
       </Section>
